@@ -1,39 +1,37 @@
+import Pages.classFactory;
 import java.io.FileNotFoundException;
+
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
+        String mail,password;
+        mail="";
+        password="";
 
         String[] reqID={
                 "109689",
-                "109018",
+                "113363",
                 "111126",
-                "112622",
-                "112626",
-                "112627",
-                "111715",
-                "111716",
-                "111657",
-                "111663",
-                "112000",
-                "111999",
                 "111323",
                 "111326",
-                "111131",
-                "111133",
+                "112394",
                 "108703",
                 "111923",
-                "112084",
-                "111751",
-                "112504",
                 "112664",
+                "112909",
+                "112908",
+                "112903",
+                "112910",
+                "112911",
+                "112912",
                 "112345",
-                "112394",
-                "112828",
-
+                "113050",
+                "113541"
 
         };
-       classFactory Method = new classFactory();
-        Method.invoke(reqID);
+
+       classFactory.invoke(reqID,mail,password);
+
 
     }
 }
