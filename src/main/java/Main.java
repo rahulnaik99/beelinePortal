@@ -1,8 +1,7 @@
 import Pages.classFactory;
-import java.io.FileNotFoundException;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws Exception {
 
         String mail,password;
         mail="";

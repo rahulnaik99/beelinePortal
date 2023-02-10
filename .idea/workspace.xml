@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78017141-5914-479b-bb3f-601bf35ef295" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CommonMethods/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/classFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utility/driverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Output/status_files/sheet001.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Output/status_files/sheet001.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/navigate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/navigate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/portal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/portal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/classFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/classFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675085399352</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit 2/10/2023">
+      <created>1676049252766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676049252766</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -104,5 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit 2/10/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2/10/2023" />
   </component>
 </project>
