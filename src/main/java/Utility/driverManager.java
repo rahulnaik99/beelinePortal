@@ -11,7 +11,7 @@ public class driverManager {
 
        WebDriver drivers = driver;
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Rmnai\\OneDrive\\Documents\\Projects\\Selenium\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\Rmnai\\OneDrive\\Desktop\\BeelinePortal\\src\\main\\resources\\chromedriver.exe");
         drivers = new ChromeDriver();
         return drivers;
     }

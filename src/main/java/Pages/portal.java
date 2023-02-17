@@ -75,10 +75,10 @@ public class portal {
 
                             continue;
                         }
-//                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText().equalsIgnoreCase("HM Disqualified")){
-//                            System.out.println();
-//                            continue;
-//                        }
+                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText().equalsIgnoreCase("HM Disqualified")){
+                            System.out.println();
+                            continue;
+                        }
                         else {
                             System.out.print(S +","+
                                     s+"," +
@@ -111,10 +111,10 @@ public class portal {
                             continue;
 
                         }
-//                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText().equalsIgnoreCase("HM Disqualified")){
-//                            continue;
-//
-//                        }
+                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText().equalsIgnoreCase("HM Disqualified")){
+                            continue;
+
+                        }
                         else{
                             System.out.print(S +","+
                                     s +","+

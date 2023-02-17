@@ -22,8 +22,7 @@ public class Util {
     }
     public static PrintWriter csvHandler() throws FileNotFoundException {
         File csvFile = new File("src/main/Output/status.csv");
-        PrintWriter out = new PrintWriter(csvFile);
-        return out;
+        return new PrintWriter(csvFile);
     }
     public static void fileOperation() throws Exception {
         Workbook workbook = new Workbook("src/main/Output/status.csv");
