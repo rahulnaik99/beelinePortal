@@ -71,16 +71,16 @@ public class portal {
             try{
                 if (row == 11) {
                     for(int k=1;k<=col;k++){
-                        if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText().equalsIgnoreCase("withdrawn")){
-
-                            continue;
-                        }
-                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText().equalsIgnoreCase("HM Disqualified")){
-                            System.out.println();
-                            continue;
-                        }
-                        else {
-                            System.out.print(S +","+
+//                        if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText().equalsIgnoreCase("withdrawn")){
+//
+//                            continue;
+//                        }
+//                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText().equalsIgnoreCase("HM Disqualified")){
+//                            System.out.println();
+//                            continue;
+//                        }
+//                        else {
+                            System.out.println(S +","+
                                     s+"," +
                                     driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+","+
 
@@ -89,7 +89,7 @@ public class portal {
                                     driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText()+"," +
                                     endDate
                             );
-                            out.print(S +","+
+                            out.println(S +","+
                                     s+"," +
                                     driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+","+
 
@@ -99,24 +99,24 @@ public class portal {
                                     endDate);
 
 
-                        }
+//                        }
 
                     }
 
 
                 } else {
                     for(int l=1;l<=col;l++){
-                        if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText().equalsIgnoreCase("withdrawn")){
-
-                            continue;
-
-                        }
-                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText().equalsIgnoreCase("HM Disqualified")){
-                            continue;
-
-                        }
-                        else{
-                            System.out.print(S +","+
+//                        if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText().equalsIgnoreCase("withdrawn")){
+//
+//                            continue;
+//
+//                        }
+//                        else if ( driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText().equalsIgnoreCase("HM Disqualified")){
+//                            continue;
+//
+//                        }
+//                        else{
+                            System.out.println(S +","+
                                     s +","+
                                     driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+
 
@@ -125,7 +125,7 @@ public class portal {
                                     driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText()+"," +
                                     endDate
                             );
-                            out.print(S +","+
+                            out.println(S +","+
                                     s +","+
                                     driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+
 
@@ -138,7 +138,7 @@ public class portal {
 
                     }
 
-                }
+//                }
 
             }
             catch (Exception e){
