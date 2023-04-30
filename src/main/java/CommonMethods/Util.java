@@ -17,7 +17,7 @@ public class Util {
         Date date = new Date();
         formatDate.setTimeZone(TimeZone.getTimeZone("IST"));
         System.out.println(formatDate.format(date));
-        out.println(formatDate.format(date));
+        out.println(", , , , , "+formatDate.format(date));
 
     }
     public static PrintWriter csvHandler() throws FileNotFoundException {
