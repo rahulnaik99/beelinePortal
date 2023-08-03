@@ -65,7 +65,6 @@ public class portal {
 
             driver.findElement(By.id("Master_PageContentPlaceHolder_screen_tabControl_tab_2")).click();
 
-
             int row = driver.findElements(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/thead/tr[2]/th")).size();
             int col = driver.findElements(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr")).size();
             try{
@@ -80,23 +79,23 @@ public class portal {
 //                            continue;
 //                        }
 //                        else {
-                            System.out.println(S +","+
-                                    s+"," +
-                                    driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+","+
+                        System.out.println(S +","+
+                                s+"," +
+                                driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+","+
 
-                                    driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[4]/a")).getText()+"," +
+                                driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[4]/a")).getText()+"," +
 
-                                    driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText()+"," +
-                                    endDate
-                            );
-                            out.println(S +","+
-                                    s+"," +
-                                    driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+","+
+                                driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText()+"," +
+                                endDate
+                        );
+                        out.println(S +","+
+                                s+"," +
+                                driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+","+
 
-                                    driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[4]/a")).getText()+"," +
+                                driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[4]/a")).getText()+"," +
 
-                                    driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText()+"," +
-                                    endDate);
+                                driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+k+"]/td[7]")).getText()+"," +
+                                endDate);
 
 
 //                        }
@@ -116,27 +115,27 @@ public class portal {
 //
 //                        }
 //                        else{
-                            System.out.println(S +","+
-                                    s +","+
-                                    driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+
+                        System.out.println(S +","+
+                                s +","+
+                                driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+
 
-                                    "," +driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[3]/a")).getText()+","  +
+                                "," +driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[3]/a")).getText()+","  +
 
-                                    driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText()+"," +
-                                    endDate
-                            );
-                            out.println(S +","+
-                                    s +","+
-                                    driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+
+                                driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText()+"," +
+                                endDate
+                        );
+                        out.println(S +","+
+                                s +","+
+                                driver.findElement(By.cssSelector("span[class='BeelineLabel'][id='Master_PageContentPlaceHolder_screen_beelineForm_statusLabel']")).getText()+
 
-                                    "," +driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[3]/a")).getText()+","  +
+                                "," +driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[3]/a")).getText()+","  +
 
-                                    driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText()+"," +
-                                    endDate);
-
-                        }
+                                driver.findElement(By.xpath("/html/body/form[1]/div[4]/div[2]/div/table[4]/tbody/tr/td/div/table[2]/tbody/tr[2]/td/table/tbody/tr["+l+"]/td[6]")).getText()+"," +
+                                endDate);
 
                     }
+
+                }
 
 //                }
 
@@ -160,5 +159,6 @@ public class portal {
 
         }
         out.close();
+        }
+
     }
-}

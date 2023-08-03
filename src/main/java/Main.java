@@ -5,22 +5,16 @@ public class Main {
 
         String mail,password;
         mail="naik.r@tcs.com";
-        password="Rahulnaik@ylp99#91410";
+        password="";
 
         String[] reqID={
-                "109689",
-                "111326",
-                "112911",
-                "115550",
-                "113050",
-                "114854",
-                "114357",
-                "114362",
-                "114363",
-                "114352",
-                "111751",
-                "114415",
-                "114416"
+                "120688",
+                "120444",
+                "120445",
+                "120848",
+                "120875",
+                "120976"
+
         };
 
        classFactory.invoke(reqID,mail,password);
